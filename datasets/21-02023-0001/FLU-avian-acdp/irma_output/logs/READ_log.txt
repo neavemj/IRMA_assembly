@@ -1,0 +1,8 @@
+/tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_HA_H5.bam:29208
+/tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_MP.bam:107396
+/tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_NA_N3.bam:56186
+/tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_NP.bam:28952
+/tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_NS.bam:106824
+/tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_PA.bam:3979
+/tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_PB1.bam:3562
+/tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_PB2.bam:6443

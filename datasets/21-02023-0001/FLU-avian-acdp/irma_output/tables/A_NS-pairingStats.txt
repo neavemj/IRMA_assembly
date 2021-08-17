@@ -1,0 +1,5 @@
+A_NS	Observations	6573100
+A_NS	ExpectedErrorRate	0.000989791726886857
+A_NS	MinimumExpectedVariation	0.00069632289178622
+A_NS	MinimumDeletionErrorRate	2.05382544005112e-05
+A_NS	MinimumInsertionErrorRate	0

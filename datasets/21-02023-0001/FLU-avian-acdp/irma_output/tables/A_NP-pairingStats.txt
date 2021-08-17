@@ -1,0 +1,5 @@
+A_NP	Observations	1550774
+A_NP	ExpectedErrorRate	0.00177782191344451
+A_NP	MinimumExpectedVariation	0.000588093429474572
+A_NP	MinimumDeletionErrorRate	1.28967857340915e-05
+A_NP	MinimumInsertionErrorRate	0

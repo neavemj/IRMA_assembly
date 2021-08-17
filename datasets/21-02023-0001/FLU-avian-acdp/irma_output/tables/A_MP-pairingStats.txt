@@ -1,0 +1,5 @@
+A_MP	Observations	6429079
+A_MP	ExpectedErrorRate	0.000963590585836634
+A_MP	MinimumExpectedVariation	0.000665414128524475
+A_MP	MinimumDeletionErrorRate	1.38433514349411e-05
+A_MP	MinimumInsertionErrorRate	0

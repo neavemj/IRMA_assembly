@@ -1,0 +1,2 @@
+Reference_Name	Upstream_Position	Length	Context	Called	Count	Total	Frequency	PairedUB
+A_PA	2067	1	ATCTT-GGGGG	FALSE	2	592	0.00337837837837838	0.0102890856182282

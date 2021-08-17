@@ -1,0 +1,5 @@
+A_NA_N3	Observations	3304621
+A_NA_N3	ExpectedErrorRate	0.000822182029346179
+A_NA_N3	MinimumExpectedVariation	0.000700534191364153
+A_NA_N3	MinimumDeletionErrorRate	1.63407543557945e-05
+A_NA_N3	MinimumInsertionErrorRate	0

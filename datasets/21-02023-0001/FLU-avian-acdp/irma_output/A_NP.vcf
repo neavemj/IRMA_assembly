@@ -1,0 +1,36 @@
+##fileformat=VCFv4.2
+##fileDate=20210817
+##source=/home/bro868/bin/flu-amd_1.0.2/IRMA_RES/scripts/vcfGenerator.pl -C 2 -F 0.008 -I 0.005 -D 0.005 -Q 24 -T 100 -M 0.80 -S 0.999 -A /tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_NP.fasta /tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_NP-allAlleles.txt /tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_NP-insertions.txt /tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_NP-deletions.txt
+##reference=/tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_NP.fasta
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=DPI,Number=.,Type=Integer,Description="Total Insertion Depth">
+##INFO=<ID=DPD,Number=.,Type=Integer,Description="Total Deletion Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##INFO=<ID=AQ,Number=A,Type=Float,Description="Average Allele Quality">
+##INFO=<ID=QUB,Number=A,Type=Float,Description="Second-order corrected 99.9% binomial confidence upper bound on quality error estimate">
+##INFO=<ID=PUB,Number=.,Type=Float,Description="Second-order corrected 99.9% binomial confidence upper bound on paired error estimate">
+##FILTER=<ID=dp100,Description="Minimum Total Coverage Depth 100">
+##FILTER=<ID=cnt2,Description="Minimum Minority Allele Count 2">
+##FILTER=<ID=q24,Description="Minimum Minority Allele Average Quality 24">
+##FILTER=<ID=fins0.005000,Description="Minimum Insertion Frequency 0.005000">
+##FILTER=<ID=fdel0.005000,Description="Minimum Deletion Frequency 0.005000">
+##FILTER=<ID=conf0.800000,Description="Minimum Confidence (Proportion not Machine Error) 0.800000">
+##FILTER=<ID=sigP99.9,Description="Second-order corrected 99.9% binomial confidence upper bound on paired error estimate">
+##FILTER=<ID=sigQ99.9,Description="Second-order corrected 99.9% binomial confidence upper bound on quality error estimate">
+##FILTER=<ID=fsnv0.008000,Description="Minimum Minority Allele Frequency 0.008000">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+A_NP	133	.	T	C	.	PASS	DP=2840;AF=0.0130281690;AQ=33.89;PUB=0.0055598291;QUB=0.0030760370
+A_NP	330	.	C	A	.	PASS	DP=4519;AF=0.0090728037;AQ=35.22;PUB=0.0045359460;QUB=0.0020268054
+A_NP	431	.	G	A	.	PASS	DP=4584;AF=0.0111256545;AQ=35.88;PUB=0.0045099674;QUB=0.0019180379
+A_NP	670	.	A	G	.	PASS	DP=4903;AF=0.0087701407;AQ=36.86;PUB=0.0043913256;QUB=0.0017178534
+A_NP	838	.	C	A	.	PASS	DP=5672;AF=0.0086389281;AQ=34.53;PUB=0.0041541768;QUB=0.0018403251
+A_NP	874	.	GC	G	.	PASS	DP=5395;DPD=5386;AF=0.0066839955;AQ=.;PUB=0.0011454217;
+A_NP	916	.	C	A	.	PASS	DP=5796;AF=0.0082815735;AQ=38.25;PUB=0.0041211311;QUB=0.0013992267
+A_NP	954	.	C	G	.	PASS	DP=5945;AF=0.0099243061;AQ=36.15;PUB=0.0040830177;QUB=0.0015698315
+A_NP	1014	.	C	G	.	PASS	DP=5466;AF=0.0084156604;AQ=36.61;PUB=0.0042119577;QUB=0.0016128250
+A_NP	1166	.	A	G	.	PASS	DP=5489;AF=0.0105665877;AQ=37.52;PUB=0.0042053187;QUB=0.0015195499
+A_NP	1195	.	C	A	.	PASS	DP=5155;AF=0.0081474297;AQ=35.45;PUB=0.0043067937;QUB=0.0018209272
+A_NP	1330	.	A	T	.	PASS	DP=4784;AF=0.0131688963;AQ=36.86;PUB=0.0044339532;QUB=0.0017497438
+A_NP	1369	.	A	G	.	PASS	DP=4605;AF=0.0106406080;AQ=36.47;PUB=0.0045017128;QUB=0.0018420721
+A_NP	1451	.	G	GA	.	PASS	DP=4153;DPI=4150;AF=0.0050602410;AQ=38.90;PUB=0.0014399123;QUB=0.0017695312
+A_NP	1524	.	C	G	.	PASS	DP=2438;AF=0.0135356850;AQ=35.30;PUB=0.0059881355;QUB=0.0031861550

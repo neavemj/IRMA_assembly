@@ -1,0 +1,5 @@
+A_PB2	Observations	563657
+A_PB2	ExpectedErrorRate	0.000842711081384601
+A_PB2	MinimumExpectedVariation	0.000876419524639985
+A_PB2	MinimumDeletionErrorRate	3.54825718477727e-05
+A_PB2	MinimumInsertionErrorRate	0

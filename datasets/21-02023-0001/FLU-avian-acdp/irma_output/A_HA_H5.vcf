@@ -1,0 +1,38 @@
+##fileformat=VCFv4.2
+##fileDate=20210817
+##source=/home/bro868/bin/flu-amd_1.0.2/IRMA_RES/scripts/vcfGenerator.pl -C 2 -F 0.008 -I 0.005 -D 0.005 -Q 24 -T 100 -M 0.80 -S 0.999 -A /tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_HA_H5.fasta /tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_HA_H5-allAlleles.txt /tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_HA_H5-insertions.txt /tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_HA_H5-deletions.txt
+##reference=/tmp/bro868/IRMAv1.0.2/irma_output-Tp3cPu2HOucScPC1UW1i5dwsBbJeBTNN/A_HA_H5.fasta
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=DPI,Number=.,Type=Integer,Description="Total Insertion Depth">
+##INFO=<ID=DPD,Number=.,Type=Integer,Description="Total Deletion Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##INFO=<ID=AQ,Number=A,Type=Float,Description="Average Allele Quality">
+##INFO=<ID=QUB,Number=A,Type=Float,Description="Second-order corrected 99.9% binomial confidence upper bound on quality error estimate">
+##INFO=<ID=PUB,Number=.,Type=Float,Description="Second-order corrected 99.9% binomial confidence upper bound on paired error estimate">
+##FILTER=<ID=dp100,Description="Minimum Total Coverage Depth 100">
+##FILTER=<ID=cnt2,Description="Minimum Minority Allele Count 2">
+##FILTER=<ID=q24,Description="Minimum Minority Allele Average Quality 24">
+##FILTER=<ID=fins0.005000,Description="Minimum Insertion Frequency 0.005000">
+##FILTER=<ID=fdel0.005000,Description="Minimum Deletion Frequency 0.005000">
+##FILTER=<ID=conf0.800000,Description="Minimum Confidence (Proportion not Machine Error) 0.800000">
+##FILTER=<ID=sigP99.9,Description="Second-order corrected 99.9% binomial confidence upper bound on paired error estimate">
+##FILTER=<ID=sigQ99.9,Description="Second-order corrected 99.9% binomial confidence upper bound on quality error estimate">
+##FILTER=<ID=fsnv0.008000,Description="Minimum Minority Allele Frequency 0.008000">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+A_HA_H5	176	.	G	GA	.	PASS	DP=1537;DPI=1533;AF=0.0293542074;AQ=38.02;PUB=0.0038920151;QUB=0.0043132933
+A_HA_H5	184	.	A	G	.	PASS	DP=1533;AF=0.0136986301;AQ=34.48;PUB=0.0056997978;QUB=0.0048015760
+A_HA_H5	190	.	CGGAAAGCTATGCAGTCTAAATGGAGTGAAACCTCTCATTTTGAGGGATTGTAGTGTAGCTGGATGGCTCCTT	C	.	PASS	DP=1506;DPD=965;AF=0.0072538860;AQ=.;PUB=0.0062554298;
+A_HA_H5	276	.	G	A	.	PASS	DP=1672;AF=0.0095693780;AQ=36.62;PUB=0.0053600490;QUB=0.0041389951
+A_HA_H5	357	.	A	G	.	PASS	DP=1971;AF=0.0081177067;AQ=37.12;PUB=0.0047862016;QUB=0.0035354891
+A_HA_H5	614	.	C	A	.	PASS	DP=2747;AF=0.0131052057;AQ=37.50;PUB=0.0038598203;QUB=0.0026323421
+A_HA_H5	617	.	C	A	.	PASS	DP=2787;AF=0.0132759239;AQ=36.68;PUB=0.0038254129;QUB=0.0026886060
+A_HA_H5	668	.	G	A	.	PASS	DP=2763;AF=0.0112196887;AQ=35.19;PUB=0.0038459445;QUB=0.0029072028
+A_HA_H5	716	.	GCCA	G	.	PASS	DP=2668;DPD=2542;AF=0.0094413847;AQ=.;PUB=0.0024304223;
+A_HA_H5	757	.	GT	G	.	PASS	DP=2473;DPD=2462;AF=0.0324939074;AQ=.;PUB=0.0025066795;
+A_HA_H5	790	.	C	A	.	PASS	DP=2702;AF=0.0118430792;AQ=37.00;PUB=0.0038996775;QUB=0.0027207457
+A_HA_H5	965	.	C	T	.	PASS	DP=3395;AF=0.0094256259;AQ=36.19;PUB=0.0033971006;QUB=0.0023542922
+A_HA_H5	1030	.	A	G	.	PASS	DP=3780;AF=0.0116402116;AQ=37.41;PUB=0.0031931873;QUB=0.0020365989
+A_HA_H5	1106	.	G	A	.	PASS	DP=4853;AF=0.0158664743;AQ=36.35;PUB=0.0027855908;QUB=0.0017861756
+A_HA_H5	1144	.	A	G	.	PASS	DP=6083;AF=0.0517836594;AQ=35.60;PUB=0.0024839408;QUB=0.0016114407
+A_HA_H5	1454	.	G	A	.	PASS	DP=8543;AF=0.0366381833;AQ=36.71;PUB=0.0021231470;QUB=0.0011817927
+A_HA_H5	1456	.	T	C	.	PASS	DP=8484;AF=0.0086044319;AQ=35.70;PUB=0.0021295751;QUB=0.0012951228

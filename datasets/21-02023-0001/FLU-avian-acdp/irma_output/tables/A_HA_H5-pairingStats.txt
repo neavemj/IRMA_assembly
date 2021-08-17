@@ -1,0 +1,5 @@
+A_HA_H5	Observations	1602790
+A_HA_H5	ExpectedErrorRate	0.000760548793042133
+A_HA_H5	MinimumExpectedVariation	0.000635142470317384
+A_HA_H5	MinimumDeletionErrorRate	2.93238665077771e-05
+A_HA_H5	MinimumInsertionErrorRate	0

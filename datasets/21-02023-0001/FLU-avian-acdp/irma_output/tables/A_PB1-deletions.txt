@@ -1,0 +1,2 @@
+Reference_Name	Upstream_Position	Length	Context	Called	Count	Total	Frequency	PairedUB
+A_PB1	1284	1	AGTCT-AATCC	TRUE	6	201	0.0298507462686567	0.0292188093935826
