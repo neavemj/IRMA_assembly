@@ -1,0 +1,5 @@
+A_PA	Observations	4400
+A_PA	ExpectedErrorRate	0.00204545454545455
+A_PA	MinimumExpectedVariation	0.0284090909090909
+A_PA	MinimumDeletionErrorRate	0
+A_PA	MinimumInsertionErrorRate	0

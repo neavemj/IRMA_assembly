@@ -1,0 +1,22 @@
+Total Score	Alignment
+872227	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F1-A_HA_H7.sam
+890142	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F2-A_HA_H7.sam
+890142	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F3-A_HA_H7.sam
+9650624	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F1-A_MP.sam
+9650624	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F2-A_MP.sam
+2381039	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F1-A_NA_N8.sam
+2381039	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F2-A_NA_N8.sam
+1374377	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F1-A_NP.sam
+1374377	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F2-A_NP.sam
+8636675	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F1-A_NS.sam
+8636675	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F2-A_NS.sam
+60787	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F1-A_PA.sam
+60787	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F2-A_PA.sam
+32433	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F1-A_PB1.sam
+32486	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F2-A_PB1.sam
+32486	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F3-A_PB1.sam
+52665	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F1-A_PB2.sam
+52704	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F2-A_PB2.sam
+52713	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F3-A_PB2.sam
+52720	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F4-A_PB2.sam
+52720	/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/ASSEMBLY/F5-A_PB2.sam

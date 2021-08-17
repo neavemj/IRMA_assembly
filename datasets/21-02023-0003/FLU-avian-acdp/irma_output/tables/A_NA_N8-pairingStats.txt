@@ -1,0 +1,5 @@
+A_NA_N8	Observations	246866
+A_NA_N8	ExpectedErrorRate	0.000931679534646326
+A_NA_N8	MinimumExpectedVariation	0.00044153508381065
+A_NA_N8	MinimumDeletionErrorRate	0
+A_NA_N8	MinimumInsertionErrorRate	0

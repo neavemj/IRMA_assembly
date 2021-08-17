@@ -1,0 +1,9 @@
+raw_reads/
+irma-launch.sh
+.snakemake/
+FLU/
+amended_consensus/
+intermediate/
+matrices/
+secondary/
+IRMA_COMPLETE

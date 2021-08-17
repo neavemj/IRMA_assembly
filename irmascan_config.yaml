@@ -1,0 +1,12 @@
+irma_module: FLU-avian-local
+irma_version: 1.0.2
+
+# Complete Genome
+dataset_name: 21-02023-0001
+forward_reads: 21-02023-01_S4_L001_R1_001.fastq.gz
+reverse_reads: 21-02023-01_S4_L001_R2_001.fastq.gz
+
+# Partial Genome
+# dataset_name: 21-02023-0003
+# forward_reads: 21-02023-03_S6_L001_R1_001.fastq.gz
+# reverse_reads: 21-02023-03_S6_L001_R2_001.fastq.gz

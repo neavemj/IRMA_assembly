@@ -1,0 +1,5 @@
+A_HA_H7	Observations	84246
+A_HA_H7	ExpectedErrorRate	0.0010564299788714
+A_HA_H7	MinimumExpectedVariation	0.0002611399947772
+A_HA_H7	MinimumDeletionErrorRate	1.18699997626e-05
+A_HA_H7	MinimumInsertionErrorRate	0

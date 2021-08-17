@@ -1,0 +1,26 @@
+##fileformat=VCFv4.2
+##fileDate=20210817
+##source=/home/bro868/bin/flu-amd_1.0.2/IRMA_RES/scripts/vcfGenerator.pl -C 2 -F 0.008 -I 0.005 -D 0.005 -Q 24 -T 100 -M 0.80 -S 0.999 -A /tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/A_NS.fasta /tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/A_NS-allAlleles.txt /tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/A_NS-insertions.txt /tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/A_NS-deletions.txt
+##reference=/tmp/bro868/IRMAv1.0.2/irma_output-uIPkRkwjUZlzVRIENszzI8JPiBc4pOsZ/A_NS.fasta
+##INFO=<ID=DP,Number=1,Type=Integer,Description="Total Depth">
+##INFO=<ID=DPI,Number=.,Type=Integer,Description="Total Insertion Depth">
+##INFO=<ID=DPD,Number=.,Type=Integer,Description="Total Deletion Depth">
+##INFO=<ID=AF,Number=A,Type=Float,Description="Allele Frequency">
+##INFO=<ID=AQ,Number=A,Type=Float,Description="Average Allele Quality">
+##INFO=<ID=QUB,Number=A,Type=Float,Description="Second-order corrected 99.9% binomial confidence upper bound on quality error estimate">
+##INFO=<ID=PUB,Number=.,Type=Float,Description="Second-order corrected 99.9% binomial confidence upper bound on paired error estimate">
+##FILTER=<ID=dp100,Description="Minimum Total Coverage Depth 100">
+##FILTER=<ID=cnt2,Description="Minimum Minority Allele Count 2">
+##FILTER=<ID=q24,Description="Minimum Minority Allele Average Quality 24">
+##FILTER=<ID=fins0.005000,Description="Minimum Insertion Frequency 0.005000">
+##FILTER=<ID=fdel0.005000,Description="Minimum Deletion Frequency 0.005000">
+##FILTER=<ID=conf0.800000,Description="Minimum Confidence (Proportion not Machine Error) 0.800000">
+##FILTER=<ID=sigP99.9,Description="Second-order corrected 99.9% binomial confidence upper bound on paired error estimate">
+##FILTER=<ID=sigQ99.9,Description="Second-order corrected 99.9% binomial confidence upper bound on quality error estimate">
+##FILTER=<ID=fsnv0.011547,Description="(AUTO) Minority Allele Frequency Lower Bound 0.011547">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+A_NS	133	.	C	A	.	PASS	DP=3633;AF=0.0211946050;AQ=35.81;PUB=0.0036002452;QUB=0.0022841434
+A_NS	273	.	T	C	.	PASS	DP=4102;AF=0.0121891760;AQ=37.16;PUB=0.0033770549;QUB=0.0019336940
+A_NS	402	.	C	T	.	PASS	DP=5246;AF=0.0215402211;AQ=35.38;PUB=0.0029883108;QUB=0.0018090962
+A_NS	515	.	T	C	.	PASS	DP=5403;AF=0.0188784009;AQ=36.53;PUB=0.0029467433;QUB=0.0016347323
+A_NS	830	.	C	T	.	PASS	DP=1934;AF=0.0134436401;AQ=34.31;PUB=0.0052209708;QUB=0.0040124992
