@@ -60,11 +60,9 @@ datasets/
 ---
 ### Results of test data sets
 
-<!--
 ###### 21-02023-0001 - Complete Genome
 The IRMA results were an exact match with the example set.  
 The full results are buried at [datasets/21-02023-0001/FLU-avian-acdp/irma_output/](datasets/21-02023-0001/FLU-avian-acdp/irma_output/)
--->
 
 ###### 21-02023-0003 - Incomplete Genome
 The five segments provided in the incomplete example set were once again matched exactly with the results from the IRMA run.  IRMA also detected the remaining 3 segments,  which all had 94% or greater identity when Blasted on NCBI.  
