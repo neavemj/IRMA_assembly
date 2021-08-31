@@ -15,7 +15,9 @@ def get_reads(wildcards):
             config["program_dir"] + "introduction/raw_data/21-03245-0004.MinION.porechop.nanofilt.fastq"  
             ])   
 
-
+# made this a checkpoint so that the DAG is re-evaluated
+# depending on subtype assembled
+# important for the phylogenetic rules
 checkpoint irma_scan:
     message: textwrap.dedent(f"""
         Run given dataset through CDCs IRMA pipeline
