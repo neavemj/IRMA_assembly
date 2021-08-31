@@ -2,6 +2,10 @@ import textwrap
 from pathlib import Path
 
 
+rule irma_all:
+    input: expand("02_irma_assembly/{sample}/IRMA_COMPLETE", sample=config["samples"])
+
+
 # need a function here to differentiate MiSeq from MinION dataset
 # will use the IRMA module config parameter for now
 def get_reads(wildcards):
@@ -12,7 +16,7 @@ def get_reads(wildcards):
             ])
     elif config["irma_module"] == "FLU-minion":
         return([      
-            config["program_dir"] + "introduction/raw_data/21-03245-0004.MinION.porechop.nanofilt.fastq"  
+            "01_preprocessing/{sample}.porechop.nanofilt.fastq"
             ])   
 
 # made this a checkpoint so that the DAG is re-evaluated
