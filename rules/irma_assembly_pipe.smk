@@ -17,7 +17,7 @@ def get_reads(wildcards):
     elif config["irma_module"] == "FLU-minion":
         return([      
             "01_preprocessing/{sample}.porechop.nanofilt.fastq"
-            ])   
+            ])  
 
 # made this a checkpoint so that the DAG is re-evaluated
 # depending on subtype assembled
@@ -29,15 +29,16 @@ checkpoint irma_scan:
         """).rstrip()
     input:
         # will return either cleaned MiSeq or MinION reads as above
-        get_reads
+        get_reads   
     output:
         # be very careful that the output doesn't include a file in
         # the folder created by IRMA below
         # otherwise, snakemake creates the folder, IRMA sees it's already
         # there and appends a V2 onto the output folder
         # Then snakemake can't see any output getting created
-        dir = directory("02_irma_assembly/{sample}/irma_output/"),
-        dummy_file = "02_irma_assembly/{sample}/IRMA_COMPLETE",
+        directory("02_irma_assembly/{sample}/irma_output/"),  
+        "02_irma_assembly/{sample}/IRMA_COMPLETE",
+        
         #counts = "02_irma_assembly/{sample}/irma_output/tables/READ_COUNTS.txt"
     params:
         irma_module = config["irma_module"]
@@ -48,11 +49,12 @@ checkpoint irma_scan:
                 {params.irma_module} \
                 {input} \
                 02_irma_assembly/{wildcards.sample}/irma_output
-
             if [ "$?" == "0" ]; then
                 touch 02_irma_assembly/{wildcards.sample}/IRMA_COMPLETE
             fi
         """
+
+
 
 
 
