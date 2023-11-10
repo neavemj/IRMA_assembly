@@ -2,8 +2,8 @@ import textwrap
 from pathlib import Path
 
 
-rule irma_all:
-    input: expand("02_irma_assembly/{sample}/IRMA_COMPLETE", sample=config["samples"])
+#rule irma_all:
+ #   input: expand("02_irma_assembly/{sample}/IRMA_COMPLETE", sample=config["samples"])
 
 
 # need a function here to differentiate MiSeq from MinION dataset
